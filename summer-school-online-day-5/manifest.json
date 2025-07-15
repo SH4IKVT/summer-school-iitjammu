@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Now",
+  "version": "1.0",
+  "description": "Current weather based on your location.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.webp",
+      "48": "icons/icon.webp",
+      "128": "icons/icon.webp"
+    }
+  },
+  "permissions": ["geolocation"],
+  "host_permissions": [
+    "https://api.openweathermap.org/"
+  ]
+}
+
